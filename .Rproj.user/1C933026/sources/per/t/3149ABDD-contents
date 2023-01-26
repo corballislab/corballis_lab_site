@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Corballis Lab"
+  navbar:
+    left:
+      - text: Team
+      - text: Pubblications
+      - text: Contact us
+
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+
+editor: visual
+

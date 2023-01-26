@@ -1,0 +1,8 @@
+---
+title: "Corballis Lab"
+about:
+  template: marquee
+  image: duck_placeholder.jpg
+---
+
+Here we need to add a short description
