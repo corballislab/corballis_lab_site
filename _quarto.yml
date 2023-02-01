@@ -5,8 +5,9 @@ website:
   title: "Corballis Lab"
   navbar:
     left:
-      - text: Team
-      - text: Pubblications
+      - text: "Team"
+        file: pages_content/people.qmd
+      - text: "Pubblications"
       - text: "Contact Us"
         file: pages_content/contact_us.qmd
 
