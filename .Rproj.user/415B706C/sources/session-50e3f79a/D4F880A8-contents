@@ -8,19 +8,5 @@ We are located in the UoA Science Center, *Building 301, Room 316*.
 
 The address is 23 Symonds St, Auckland, 1010. [Click here for directions](https://goo.gl/maps/nUQj5UTb3n4dHXyu6)
 
-```{r}
-#| echo: false
-#| warning: false
-#| column: screen
-
-library(leaflet)
-
-leaflet() %>% 
-    addTiles() %>% 
-    addMarkers(lat = -36.853109056371345, 
-               lng = 174.76838162689708,
-               popup = "23 SYMONDS ST, AUCKLAND, 1010, NEW ZEALAND") %>% 
-    addProviderTiles(providers$CartoDB.Positron)
-```
 
 
