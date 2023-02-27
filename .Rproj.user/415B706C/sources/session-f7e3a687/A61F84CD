@@ -1,14 +1,14 @@
 {
-    "id": "A6D4D881",
-    "path": "C:/Applications/Github/corballis_lab_site/pages_content/people.qmd",
-    "project_path": "pages_content/people.qmd",
+    "id": "A61F84CD",
+    "path": "C:/Applications/Github/corballis_lab_site/index.qmd",
+    "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "2217135410",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1677458820076.0,
+    "created": 1677465390469.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 1,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "22,21",
-        "scrollLine": "0",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "89:0",
+        "cursorPosition": "8,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1677458866,
+    "lastKnownWriteTime": 1677465426,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1677458866610,
+    "last_content_update": 1677465426169,
     "read_only": false,
     "read_only_alternatives": []
 }

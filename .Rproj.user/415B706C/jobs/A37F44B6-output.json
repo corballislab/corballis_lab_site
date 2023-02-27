@@ -1,0 +1,7 @@
+[2,"\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: Corballis Lab\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - styles.css\n  toc: true\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme:\n    light: simplex\n    dark:\n      - simplex\n      - simplex_dark.sass\n  title: Corballis Lab\n  about:\n    template: marquee\n    image: pages_content/images/lab_photo_2023.jpg\n  \n"]
+[1,"Output created: _site\\index.html\n\nPreparing to preview\n"]
+[1,"[1/1] pages_content\\people.qmd\n"]
+[1,"\n"]
+[1,"Watching files for changes\nBrowse at http://localhost:6576/\n"]
+[1,"GET: /index.html\n"]
