@@ -1,4 +1,25 @@
 ---
+# This is the current members page. To add a new member copy the following 
+# template and replace the necessary information (name, photo, description). 
+# Remove the # symbol, but leave the name with one (eg. # John Smith)
+# The photo should go in the pages_content/images folder
+
+## NAME
+# **Role**
+# 
+# :::: {.grid}
+# 
+# ::: {.g-col-4}
+# ![](images/Image_name)
+# :::
+# 
+# ::: {.g-col-8}
+# DESCRIPTION
+# ::: 
+# 
+# :::: 
+#---
+
 title: "Meet the Team"
 toc: false
 ---
