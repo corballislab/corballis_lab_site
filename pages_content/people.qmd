@@ -4,13 +4,13 @@
 # Remove the # symbol, but leave the name with one (eg. # John Smith)
 # The photo should go in the pages_content/images folder
 
-## NAME
-# **Role**
+# # NAME
+# **ROLE**
 # 
 # :::: {.grid}
 # 
 # ::: {.g-col-4}
-# ![](images/Image_name)
+# ![](images/IMAGE_NAME)
 # :::
 # 
 # ::: {.g-col-8}
@@ -18,7 +18,8 @@
 # ::: 
 # 
 # :::: 
-#---
+# 
+# ---
 
 title: "Meet the Team"
 toc: false
@@ -160,20 +161,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ---
 
-# Tamar McCambridge
-**Master**
-
-:::: {.grid}
-
-::: {.g-col-4}
-![](images/default_user.svg)
-:::
-
-::: {.g-col-8}
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-::: 
-
-:::: 
-
----
 
