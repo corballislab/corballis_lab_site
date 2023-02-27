@@ -3,7 +3,7 @@
     "path": "C:/Applications/Github/corballis_lab_site/pages_content/people.qmd",
     "project_path": "pages_content/people.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2217135410",
     "contents": "",
     "dirty": false,
     "created": 1677458820076.0,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "22,14",
+        "cursorPosition": "22,21",
         "scrollLine": "0",
         "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1677458829,
+    "lastKnownWriteTime": 1677458866,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1677458829843,
+    "last_content_update": 1677458866610,
     "read_only": false,
     "read_only_alternatives": []
 }

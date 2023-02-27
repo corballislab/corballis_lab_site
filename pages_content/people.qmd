@@ -20,7 +20,7 @@
 # :::: 
 #---
 
-title: "People"
+title: "Meet the Team"
 toc: false
 ---
 
