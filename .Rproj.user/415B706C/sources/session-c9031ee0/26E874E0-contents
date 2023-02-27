@@ -1,0 +1,45 @@
+# This file defines the structure of the website. Usually we should not change
+# this file, except if we need to add a page to the vavigation bar. See details 
+# on each section for instructions
+
+# Do not change this! 
+project:
+  type: website
+# The following section define the look and feel of the website
+website:
+  # Website name
+  title: "Corballis Lab"
+  # Navigation bar - Shown at the top of the website
+  navbar:
+    # This position the bar menus on the left side of the navigation bar. Each 
+    # entry is is a button that links to a different page of the website. To add
+    # a new section you need to add the following template:
+    # - text: "NAME_OF_THE_SECTION"
+    #   file: FILE_PATH_TO_THE_QMD_FILE
+    # Remember to respect the indentation between text and file
+    # Reagrding the file path. To keep the repositiory cleaned, files containing
+    # a page content should be created and saved in the "pages_content" folder
+    # A note on qmd files: these files are similar to markdwon files, they just
+    # have the "quarto" extension. Please, look at the files already present in 
+    # the "pages_content" folder to get an idea.
+    left:
+      - text: "Team"
+        file: pages_content/people.qmd
+      - text: "Pubblications"
+        file: pages_content/pubblication_list.qmd
+      - text: "Resources"
+      - text: "Contact Us"
+        file: pages_content/contact_us.qmd
+
+# Here we define the colours, font, etc.. of the website. You should not modify
+# this. 
+format:
+  html:
+    # Themes to use. For light we selected "simplex" For dark, we created a sass
+    # file to modify the colours of the simplex theme
+    theme: 
+      light: simplex
+      dark: [simplex, simplex_dark.sass]
+    css: styles.css
+    toc: true
+
