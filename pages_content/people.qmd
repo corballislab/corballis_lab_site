@@ -64,7 +64,9 @@ for (i in 1:nrow(studentscsv)) {
 }
 ```
 
+`r studentscsv <- read_csv("students_csv.csv")`
 `r studentscsv <- studentscsv[sample(nrow(studentscsv)),]`
+
 # `r studentscsv$name[randDispOrd[1]] `
 **`r studentscsv$position[randDispOrd[1]] `**
 
