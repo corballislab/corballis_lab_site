@@ -25,9 +25,9 @@ website:
     left:
       - text: "Team"
         file: pages_content/people.qmd
-      - text: "Pubblications"
-        file: pages_content/pubblication_list.qmd
-      - text: "Resources"
+      - text: "Publications"
+        file: pages_content/publications.qmd
+      #- text: "Resources"
       - text: "Contact Us"
         file: pages_content/contact_us.qmd
 
