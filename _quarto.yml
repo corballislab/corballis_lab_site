@@ -27,7 +27,7 @@ website:
         file: pages_content/people.qmd
       - text: "Publications"
         file: pages_content/publications.qmd
-      #- text: "Resources"
+#      - text: "Resources"
       - text: "Contact Us"
         file: pages_content/contact_us.qmd
 
