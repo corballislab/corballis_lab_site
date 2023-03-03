@@ -33,9 +33,11 @@ studentscsv <- read_csv("students_csv.csv")
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
 # Run this and use output in qmd file
 
-cat(paste0("`r randDispOrd <- sample(nrow(studentscsv)) `\n"))
+#cat(paste0("`r randDispOrd <- sample(nrow(studentscsv)) `\n"))
 
 for (i in 1:nrow(studentscsv)) {
+    if (i == 1) {cat(paste0("`r randDispOrd <- sample(nrow(studentscsv)) `\n"))
+}
   # output name and title
   cat(paste0("# `r studentscsv$name[randDispOrd[",i,"]] `\n"))
   cat(paste0("**`r studentscsv$position[randDispOrd[",i,"]] `**\n\n"))
@@ -63,7 +65,6 @@ for (i in 1:nrow(studentscsv)) {
 ```
 
 `r randDispOrd <- sample(nrow(studentscsv)) `
-
 # `r studentscsv$name[randDispOrd[1]] `
 **`r studentscsv$position[randDispOrd[1]] `**
 
