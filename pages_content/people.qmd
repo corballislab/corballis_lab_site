@@ -33,7 +33,7 @@ studentscsv <- read_csv("students_csv.csv")
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
 # Run this and use output in qmd file
 
-#cat(paste0("`r randDispOrd <- sample(nrow(studentscsv)) `\n"))
+randDispOrd <- sample(nrow(studentscsv))
 
 for (i in 1:nrow(studentscsv)) {
     if (i == 1) {cat(paste0("`r randDispOrd <- sample(nrow(studentscsv)) `\n"))
