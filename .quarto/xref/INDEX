@@ -16,5 +16,8 @@
   },
   "pages_content/publications.qmd": {
     "publications.html": "66ac9eb8"
+  },
+  "pages_content/publications_list.qmd": {
+    "publications_list.html": "c8020fa3"
   }
 }

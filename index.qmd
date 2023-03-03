@@ -4,5 +4,3 @@ about:
   template: marquee
   image: pages_content/images/lab_photo_2023.jpg
 ---
-
-Here we need to add a short description

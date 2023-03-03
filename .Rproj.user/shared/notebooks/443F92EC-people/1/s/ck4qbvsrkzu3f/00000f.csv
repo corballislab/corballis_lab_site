@@ -1,0 +1,271 @@
+"0","# Run this and use output in qmd file"
+"0",""
+"0","#cat(paste0(""`r randDispOrd <- sample(nrow(studentscsv)) `\n""))"
+"0",""
+"0","for (i in 1:nrow(studentscsv)) {"
+"0","    if (i == 1) {cat(paste0(""`r randDispOrd <- sample(nrow(studentscsv)) `\n""))"
+"0","}"
+"0","  # output name and title"
+"0","  cat(paste0(""# `r studentscsv$name[randDispOrd["",i,""]] `\n""))"
+"0","  cat(paste0(""**`r studentscsv$position[randDispOrd["",i,""]] `**\n\n""))"
+"0","  # output the summary in a grid format"
+"0","  cat("":::: {.grid}\n\n"")"
+"0","  if (i %% 2 == 0) {"
+"0","    cat(""::: {.g-col-5}\n"")"
+"0","    cat(paste0(""![](images/`r studentscsv$image[randDispOrd["",i,""]] `){width=100% height=auto}\n""))"
+"0","  } else {"
+"0","    cat(""::: {.g-col-7}\n"")"
+"0","    cat(""`r studentscsv$summary[randDispOrd["",i,""]] `"", ""\n"")"
+"0","  }"
+"0","  cat("":::\n\n"")"
+"0","  if (i %% 2 == 0) {"
+"0","    cat(""::: {.g-col-7}\n"")"
+"0","    cat(""`r studentscsv$summary[randDispOrd["",i,""]] `"", ""\n"")"
+"0","  } else {"
+"0","    cat(""::: {.g-col-5}\n"")"
+"0","    cat(paste0(""![](images/`r studentscsv$image[randDispOrd["",i,""]] `){width=100% height=auto}\n""))"
+"0","  }"
+"0","  cat("":::\n\n"")"
+"0","  cat(""::::\n\n"")"
+"0","  cat(""---\n\n"")"
+"0","}"
+"1","`r randDispOrd <- sample(nrow(studentscsv)) `
+"
+"1","# `r studentscsv$name[randDispOrd[1]] `
+"
+"1","**`r studentscsv$position[randDispOrd[1]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","1"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[1]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[2]] `
+"
+"1","**`r studentscsv$position[randDispOrd[2]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[2]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","2"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[3]] `
+"
+"1","**`r studentscsv$position[randDispOrd[3]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","3"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[3]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[4]] `
+"
+"1","**`r studentscsv$position[randDispOrd[4]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[4]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","4"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[5]] `
+"
+"1","**`r studentscsv$position[randDispOrd[5]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","5"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[5]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[6]] `
+"
+"1","**`r studentscsv$position[randDispOrd[6]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[6]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","6"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[7]] `
+"
+"1","**`r studentscsv$position[randDispOrd[7]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","7"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[7]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
