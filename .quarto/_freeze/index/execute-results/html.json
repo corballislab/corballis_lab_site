@@ -1,0 +1,14 @@
+{
+  "hash": "b50673b2080956615bfb59fc09f2a56c",
+  "result": {
+    "markdown": "---\ntitle: \"Corballis Lab\"\nabout:\n  template: marquee\n---\n\n<center> ![](pages_content/images/lab_photo_2023.jpg){width=90% height=auto} </center>\n\n---\n\n<center> The Corballis lab founded by Professor Paul M. Corballis in 2011 is a research laborartory in The School of Psychology at the University of Auckland. </center>\n\n\n5, 1, 2, 4, 3",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
