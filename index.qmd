@@ -3,7 +3,7 @@ title: "Corballis Lab"
 about:
   template: marquee
 ---
-<center> ![](pages_content/images/lab_photo_2023.jpg){width=90% height=auto} </center>
+<center> ![Corballis Lab 2023](pages_content/images/lab_photo_2023.jpg){width=90% height=auto} </center>
 
 ---
 
