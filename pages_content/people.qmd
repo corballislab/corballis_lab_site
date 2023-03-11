@@ -8,11 +8,11 @@ toc: false
 :::: {.grid} 
 
 :::  {.g-col-8}
-Paul summary
+I am a cognitive neuroscientist with research interests in visual perception, attention, and cognitive control. I completed my BSc and MSc degrees at the University of Auckland before undertaking doctoral studies at Columbia University in New York City.  After completing my PhD, I spent the next several years in the Center for Cognitive Neuroscience at Dartmouth College in New Hampshire. In 2002 I joined the School of Psychology at the Georgia Institute of Technology in Atlanta, where I remained until returning to the University of Auckland in June of 2011.
 :::
 
 ::: {.g-col-4}
-![](images/default_user.svg)
+![](images/paul.jpg)
 :::
 
 ::::
