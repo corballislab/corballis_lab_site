@@ -2,23 +2,17 @@
 title: "Meet the team"
 toc: false
 ---
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-library(readr)
-library(knitr)
-library(quarto)
-```
-
 # Paul Corballis
 **Lab Director**
 
 :::: {.grid} 
 
-:::  {.g-col-8}
-Paul summary
+:::  {.g-col-5}
+![](images/paul.jpg)
 :::
 
-::: {.g-col-4}
-![](images/default_user.svg)
+::: {.g-col-7}
+I am a cognitive neuroscientist with research interests in visual perception, attention, and cognitive control. I completed my BSc and MSc degrees at the University of Auckland before undertaking doctoral studies at Columbia University in New York City.  After completing my PhD, I spent the next several years in the Center for Cognitive Neuroscience at Dartmouth College in New Hampshire. In 2002 I joined the School of Psychology at the Georgia Institute of Technology in Atlanta, where I remained until returning to the University of Auckland in June of 2011.
 :::
 
 ::::
@@ -26,13 +20,16 @@ Paul summary
 ---
 
 ```{r, pressure, echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
+library(readr)
+library(knitr)
+library(quarto)
 studentscsv <- read_csv("students_csv.csv")
 ```
 
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
 # Run this and use output in qmd file
-
+studentscsv <- studentscsv[sample(nrow(studentscsv)),]
 randDispOrd <- sample(nrow(studentscsv))
 
 for (i in 1:nrow(studentscsv)) {
@@ -47,7 +44,7 @@ for (i in 1:nrow(studentscsv)) {
     cat("::: {.g-col-5}\n")
     cat(paste0("![](images/`r studentscsv$image[randDispOrd[",i,"]] `){width=100% height=auto}\n"))
   } else {
-    cat("::: {.g-col-7}\n")
+    cat("::: {.g-col-5}\n")
     cat("`r studentscsv$summary[randDispOrd[",i,"]] `", "\n")
   }
   cat(":::\n\n")
@@ -55,7 +52,7 @@ for (i in 1:nrow(studentscsv)) {
     cat("::: {.g-col-7}\n")
     cat("`r studentscsv$summary[randDispOrd[",i,"]] `", "\n")
   } else {
-    cat("::: {.g-col-5}\n")
+    cat("::: {.g-col-7}\n")
     cat(paste0("![](images/`r studentscsv$image[randDispOrd[",i,"]] `){width=100% height=auto}\n"))
   }
   cat(":::\n\n")
@@ -63,7 +60,6 @@ for (i in 1:nrow(studentscsv)) {
   cat("---\n\n")
 }
 ```
-
 `r studentscsv <- studentscsv[sample(nrow(studentscsv)),]`
 # `r studentscsv$name[randDispOrd[1]] `
 **`r studentscsv$position[randDispOrd[1]] `**
@@ -178,6 +174,57 @@ for (i in 1:nrow(studentscsv)) {
 
 ::: {.g-col-5}
 ![](images/`r studentscsv$image[randDispOrd[7]] `){width=100% height=auto}
+:::
+
+::::
+
+---
+
+# `r studentscsv$name[randDispOrd[8]] `
+**`r studentscsv$position[randDispOrd[8]] `**
+
+:::: {.grid}
+
+::: {.g-col-5}
+![](images/`r studentscsv$image[randDispOrd[8]] `){width=100% height=auto}
+:::
+
+::: {.g-col-7}
+`r studentscsv$summary[randDispOrd[ 8 ]] ` 
+:::
+
+::::
+
+---
+
+# `r studentscsv$name[randDispOrd[9]] `
+**`r studentscsv$position[randDispOrd[9]] `**
+
+:::: {.grid}
+
+::: {.g-col-7}
+`r studentscsv$summary[randDispOrd[ 9 ]] ` 
+:::
+
+::: {.g-col-5}
+![](images/`r studentscsv$image[randDispOrd[9]] `){width=100% height=auto}
+:::
+
+::::
+
+---
+
+# `r studentscsv$name[randDispOrd[10]] `
+**`r studentscsv$position[randDispOrd[10]] `**
+
+:::: {.grid}
+
+::: {.g-col-5}
+![](images/`r studentscsv$image[randDispOrd[10]] `){width=100% height=auto}
+:::
+
+::: {.g-col-7}
+`r studentscsv$summary[randDispOrd[ 10 ]] ` 
 :::
 
 ::::
