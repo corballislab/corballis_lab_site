@@ -1,0 +1,370 @@
+"0","for (i in 1:nrow(studentscsv)) {
+    if (i == 1) {cat(paste0(""`r studentscsv <- studentscsv[sample(nrow(studentscsv)),]`\n""))
+}
+  # output name and title
+  cat(paste0(""# `r studentscsv$name[randDispOrd["",i,""]] `\n""))
+  cat(paste0(""**`r studentscsv$position[randDispOrd["",i,""]] `**\n\n""))
+  # output the summary in a grid format
+  cat("":::: {.grid}\n\n"")
+  if (i %% 2 == 0) {
+    cat(""::: {.g-col-5}\n"")
+    cat(paste0(""![](images/`r studentscsv$image[randDispOrd["",i,""]] `){width=100% height=auto}\n""))
+  } else {
+    cat(""::: {.g-col-5}\n"")
+    cat(""`r studentscsv$summary[randDispOrd["",i,""]] `"", ""\n"")
+  }
+  cat("":::\n\n"")
+  if (i %% 2 == 0) {
+    cat(""::: {.g-col-7}\n"")
+    cat(""`r studentscsv$summary[randDispOrd["",i,""]] `"", ""\n"")
+  } else {
+    cat(""::: {.g-col-7}\n"")
+    cat(paste0(""![](images/`r studentscsv$image[randDispOrd["",i,""]] `){width=100% height=auto}\n""))
+  }
+  cat("":::\n\n"")
+  cat(""::::\n\n"")
+  cat(""---\n\n"")
+}
+"
+"1","`r studentscsv <- studentscsv[sample(nrow(studentscsv)),]`
+"
+"1","# `r studentscsv$name[randDispOrd[1]] `
+"
+"1","**`r studentscsv$position[randDispOrd[1]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","1"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[1]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[2]] `
+"
+"1","**`r studentscsv$position[randDispOrd[2]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[2]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","2"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[3]] `
+"
+"1","**`r studentscsv$position[randDispOrd[3]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","3"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[3]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[4]] `
+"
+"1","**`r studentscsv$position[randDispOrd[4]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[4]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","4"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[5]] `
+"
+"1","**`r studentscsv$position[randDispOrd[5]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","5"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[5]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[6]] `
+"
+"1","**`r studentscsv$position[randDispOrd[6]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[6]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","6"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[7]] `
+"
+"1","**`r studentscsv$position[randDispOrd[7]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","7"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[7]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[8]] `
+"
+"1","**`r studentscsv$position[randDispOrd[8]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[8]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","8"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[9]] `
+"
+"1","**`r studentscsv$position[randDispOrd[9]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","9"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[9]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
+"1","# `r studentscsv$name[randDispOrd[10]] `
+"
+"1","**`r studentscsv$position[randDispOrd[10]] `**
+
+"
+"1",":::: {.grid}
+
+"
+"1","::: {.g-col-5}
+"
+"1","![](images/`r studentscsv$image[randDispOrd[10]] `){width=100% height=auto}
+"
+"1",":::
+
+"
+"1","::: {.g-col-7}
+"
+"1","`r studentscsv$summary[randDispOrd["
+"1"," "
+"1","10"
+"1"," "
+"1","]] `"
+"1"," "
+"1","
+"
+"1",":::
+
+"
+"1","::::
+
+"
+"1","---
+
+"
